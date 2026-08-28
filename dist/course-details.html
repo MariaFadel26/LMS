@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ar" class="dark" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سكول تك | تفاصيل كورس تطوير الويب</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- start Navbar -->
+    <nav class="site-nav bg-white border-gray-200 dark:bg-gray-900 drop-shadow-sm">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="assest/images/MAIN-IMAGE.png" class="h-8" alt="شعار سكول تك" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">سكوول نت</span>
+            </a>
+            <div class="language-switcher flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" data-dropdown-toggle="language-dropdown-menu"
+                    class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                    <span class="text-xl leading-none me-2" aria-hidden="true">🇸🇦</span>
+                    العربية
+                </button>
+
+
+                <!-- Dropdown -->
+                <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700"
+                    id="language-dropdown-menu">
+                    <ul class="py-2 font-medium" role="none">
+                        <li>
+                            <a href="index.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <span class="text-lg leading-none me-2" aria-hidden="true">🇸🇦</span>
+                                    العربية
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512">
+                                        <path fill="#ffce00" d="M0 341.3h512V512H0z" />
+                                        <path d="M0 0h512v170.7H0z" />
+                                        <path fill="#d00" d="M0 170.7h512v170.6H0z" />
+                                    </svg>
+                                    English
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512">
+                                        <g fill-rule="evenodd" stroke-width="1pt">
+                                            <path fill="#fff" d="M0 0h512v512H0z" />
+                                            <path fill="#009246" d="M0 0h170.7v512H0z" />
+                                            <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
+                                        </g>
+                                    </svg>
+                                    Français
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                role="menuitem">
+                                <div class="inline-flex items-center">
+                                    <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        id="flag-icon-css-cn" viewBox="0 0 512 512">
+                                        <defs>
+                                            <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
+                                        </defs>
+                                        <path fill="#de2910" d="M0 0h512v512H0z" />
+                                        <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)"
+                                            xlink:href="#a" />
+                                        <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)"
+                                            xlink:href="#a" />
+                                        <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)"
+                                            xlink:href="#a" />
+                                        <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)"
+                                            xlink:href="#a" />
+                                        <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)"
+                                            xlink:href="#a" />
+                                    </svg>
+                                    Türkçe
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button data-collapse-toggle="navbar-language" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-language" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+                <ul
+                    class="flex md:items-center flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            aria-current="page">الرئيسية</a>
+                    </li>
+                    <li>
+                        <a href="index.html#courses"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">الكورسات</a>
+                    </li>
+                    <li>
+                        <a href="index.html#categories"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">الخدمات</a>
+                    </li>
+                    <li>
+                        <a href="single-post.html"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">المدونة</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contact"
+                            class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">اتصل
+                            بنا</a>
+                    </li>
+
+                    <li class="mr-2">
+                        <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none 
+        rounded-lg text-sm p-2.5">
+                            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                            </svg>
+                            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                    fill-rule="evenodd" clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end Navbar -->
+
+
+    <!-- Start Course Page Header -->
+    <section class="py-[50px] bg-blue-100 dark:bg-slate-700">
+        <div class="page-header flex max-w-screen-xl mx-auto justify-between">
+            <div class="grow  flex flex-col justify-center ">
+                <h1 class=" text-center md:text-right text-4xl font-bold text-blue-500 mb-5"> كورس برمجة الويب</h1>
+                <p class="text-center md:text-right mb-5 font-bold dark:text-gray-200">المدرب: <span>ياسين </span> </p>
+                <div class="flex justify-center md:justify-start gap-3 dark:text-gray-200">
+                    <div>
+                        <i class="fa-solid fa-calendar-check"></i> آخر تحديث: أغسطس 2026
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-file-lines">
+                            14 درس
+                        </i>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-globe">العربية</i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="w-[25%] ">
+                <img class="w-full rounded-t-[10px]" src="assest/images/Python.jpg" alt="">
+            </div> -->
+        </div>
+
+
+    </section>
+
+    <!-- end  Course Page Header -->
+
+    <!-- end  content  -->
+    <section class="main-content ">
+        <div class=" inner-content   max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row  justify-between gap-5 ">
+            <div class="content grow  mt-3 md:mt-0">
+
+
+                <div
+                    class=" c-tabs text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+                    <ul class="flex flex-wrap -mb-px " data-tabs-toggle="#tabcontent">
+                        <li class="me-2">
+                            <a href="#description" data-tabs-target="#description" role="tab" aria-controls="description"
+                                aria-selected="true"
+                                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">تفاصيل
+                                الكورس</a>
+                        </li>
+
+                        <li class="me-2">
+                            <a href="#curriculum" data-tabs-target="#curriculum" role="tab" aria-controls="curriculum"
+                                aria-selected="false"
+                                class="inline-block p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500"
+                                aria-current="page">المنهاج</a>
+                        </li>
+
+                        <li class="me-2">
+                            <a href="#about" data-tabs-target="#about" role="tab" aria-controls="about" aria-selected="false"
+                                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">المدرب</a>
+                        </li>
+
+                    </ul>
+                </div>
+                              <!-- error -->
+                <div id="tabcontent"> 
+                    <div id="description" class="mt-5 ">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 bg-gray-100 p-5 rounded-[10px]">
+                            <div>
+                                <ul class="flex flex-col gap-4">
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>14 درسًا تطبيقيًا</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>مشاريع صغيرة بعد كل وحدة</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>ملفات وتمارين قابلة للتنزيل</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>شرح واضح باللغة العربية</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="flex flex-col gap-4">
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>مناسب للمبتدئين</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>تعلّم وفق وقتك الخاص</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>دعم وإرشاد أثناء التعلّم</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-globe"></i>
+                                        <span>شهادة إتمام عند إنجاز المتطلبات</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="mt-5 leading-9">في هذا الكورس ستتعلّم أساسيات تطوير الويب
+                            من خلال شرح واضح وتطبيقات عملية ومشاريع صغيرة تساعدك على بناء صفحات حقيقية.
+                            بنهاية المسار ستتمكن من فهم بنية الصفحة وكتابة كود منظّم.</p>
+                        <p class="mt-5 leading-9">في هذا الكورس ستتعلّم أساسيات تطوير الويب
+                            من خلال شرح واضح وتطبيقات عملية ومشاريع صغيرة تساعدك على بناء صفحات حقيقية.
+                            بنهاية المسار ستتمكن من فهم بنية الصفحة وكتابة كود منظّم.</p>
+                        <p class="mt-5 leading-9">في هذا الكورس ستتعلّم أساسيات تطوير الويب
+                            من خلال شرح واضح وتطبيقات عملية ومشاريع صغيرة تساعدك على بناء صفحات حقيقية.
+                            بنهاية المسار ستتمكن من فهم بنية الصفحة وكتابة كود منظّم.</p>
+                        <img class="mt-5" src="assest/images/single-course-2.webp" alt="">
+                        <p>هذا المسار مناسب للمبتدئين ولكل من يريد تأسيس مهارة عملية في تطوير الويب.</p>
+                    </div>
+
+
+                    <div id="curriculum">
+
+                        <div id="accordion-color" data-accordion="collapse"
+                            data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white mt-5">
+                            <h2 id="accordion-color-heading-1">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl bg-gray-200 dark:border-gray-700 dark:text-gray-400  dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-color-body-1" aria-expanded="true"
+                                    aria-controls="accordion-color-body-1">
+                                    <span>ماذا سأتعلّم في هذا الجزء؟</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-color-body-1"
+                                class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none"
+                                aria-labelledby="accordion-color-heading-1">
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <h2 id="accordion-color-heading-2">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl bg-gray-200 dark:border-gray-700 dark:text-gray-400  dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-color-body-2" aria-expanded="true"
+                                    aria-controls="accordion-color-body-2">
+                                    <span>ماذا سأتعلّم في هذا الجزء؟</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-color-body-2"
+                                class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none"
+                                aria-labelledby="accordion-color-heading-2">
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <h2 id="accordion-color-heading-3">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl bg-gray-200 dark:border-gray-700 dark:text-gray-400  dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-color-body-3" aria-expanded="true"
+                                    aria-controls="accordion-color-body-3">
+                                    <span>ماذا سأتعلّم في هذا الجزء؟</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-color-body-3"
+                                class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none"
+                                aria-labelledby="accordion-color-heading-3">
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <h2 id="accordion-color-heading-4">
+                                <button type="button"
+                                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl bg-gray-200 dark:border-gray-700 dark:text-gray-400  dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                    data-accordion-target="#accordion-color-body-4" aria-expanded="true"
+                                    aria-controls="accordion-color-body-4">
+                                    <span>ماذا سأتعلّم في هذا الجزء؟</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="M9 5 5 1 1 5" />
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-color-body-4"
+                                class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none"
+                                aria-labelledby="accordion-color-heading-4">
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                                <div
+                                    class="p-5 flex justify-between border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                    <div>
+                                        <i class="fa-solid fa-book text-blue-500 ml-2.5 "></i>
+                                        <a href="#curriculum">درس HTML</a>
+                                    </div>
+                                    <div>
+                                        <span>50 </span>
+                                        <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="about" class="mt-5">
+                        <h2 class="text-2xl font-bold">ياسين احمد</h2>
+                        <div class="flex items-center gap-4 my-7 ">
+                            <img class="w-[150px] h-[150px] object-cover rounded-full" src="assest/images/servers.jpg"
+                                alt="">
+                            <span>
+                                <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+                                250 students
+
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-eye text-blue-500 mr-2.5"></i>
+                                250 students
+                            </span>
+                        </div>
+                        <p>يشاركك المدرب خبرته ويشرح المفاهيم بأسلوب مبسّط يناسب المبتدئين.</p>
+                        <div class="social flex gap-5 mt-5 ">
+                            <a href="#contact"> <i class="fa-brand fa-facebook text-blue-500 mr-2.5"></i>
+                            </a>
+                            <a href="#contact"> <i class="fa-brand fa-x-twitter text-blue-500 mr-2.5"></i>
+                            </a>
+                            <a href="#contact"> <i class="fa-brand fa-instagram text-blue-500 mr-2.5"></i>
+                            </a>
+                            <a href="#contact"> <i class="fa-brand fa-linked-in text-blue-500 mr-2.5"></i>
+                            </a>
+                            <a href="#contact"> <i class="fa-brand fa-youtube text-blue-500 mr-2.5"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- reviews -->
+                <div class="reviews mb-5 md:w-[85%]">
+                    <h2 class="text-3xl font-bold mt-5">التعليقات</h2>
+                    <div class="flex items-center gap-5"> 
+                        <h3 class="text-3xl font-bold my-5 text-blue-500">250</h3>
+                        <div class="star felx gap-3 text-yellow-500">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="progress px-5  w-[60%]  py-4  bg-gray-100 rounded-[10px]">
+                  <div class="flex gap-4 items-center mb-2">
+                          <span class="text-xl font-bold">5</span>
+                          <span class="text-xl font-bold">40%</span>
+                    
+                          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                              <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                  style="width: 45%"> 45%</div>
+                          </div>
+                  </div>
+                  <div class="flex gap-4 items-center mb-2">
+                          <span class="text-xl font-bold">5</span>
+                          <span class="text-xl font-bold">40%</span>
+                    
+                          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                              <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                  style="width: 45%"> 45%</div>
+                          </div>
+                  </div>
+                  <div class="flex gap-4 items-center mb-2">
+                          <span class="text-xl font-bold">5</span>
+                          <span class="text-xl font-bold">40%</span>
+                    
+                          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                              <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                  style="width: 45%"> 45%</div>
+                          </div>
+                  </div>
+                  <div class="flex gap-4 items-center mb-2">
+                          <span class="text-xl font-bold">5</span>
+                          <span class="text-xl font-bold">40%</span>
+                    
+                          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                              <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                  style="width: 45%"> 45%</div>
+                          </div>
+                  </div>
+                  <div class="flex gap-4 items-center mb-2">
+                          <span class="text-xl font-bold">5</span>
+                          <span class="text-xl font-bold">40%</span>
+                    
+                          <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                              <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                                  style="width: 45%"> 45%</div>
+                          </div>
+                  </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="course-details md:relative-top-[-200px] mt-3 md:mt-0 md:w-[25%] shrink-0 bg-gray-200 p-[20px] rounded-[10px] h-full">
+                   <div class=" ">
+                <img class="w-full rounded-t-[10px]" src="assest/images/Python.jpg" alt="">
+            </div>
+            <div class="p-[20px]">
+                   <p class="text-2xl  font-bold mb-[20px]">السعر:250$</p>
+                <button class="btn w-full">اشترك الان </button>
+                <div class="mt-5 flex flex-col gap-2 ">
+                    <span>
+                        <i class="fa-solid fa-square-check">
+                            وصول فوري إلى محتوى الكورس
+                        </i>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-square-check">
+                            تعلّم من أي جهاز وفي أي وقت
+                        </i>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-square-check">
+                            تطبيقات عملية بعد كل درس
+                        </i>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-square-check">
+                            تحديثات مستمرة على المحتوى
+                        </i>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-square-check">
+                            إرشاد مناسب للمبتدئين
+                        </i>
+                    </span>
+                </div>
+            </div>
+             
+
+
+
+            </div>
+
+
+        </div>
+
+
+        <!--start  related courses -->
+
+         <!-- <div  class=" max-w-screen-xl mx-auto  all-courses p-[20px]">
+        <h2 class=" text-4xl  font-bold text-blue-500  mb-4 dark:text-white"> الكورسات المتعلقة</h2>
+    
+        <div
+            class=" mt-8 p-4 md:p-0  max-w-screen-xl mx-auto coures grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div
+                class="course relative bg-gray-100  dark:bg-slate-900 rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+                <div class="absolute top-[5px] right-[5px] bg-red-500 dark:bg-blue-500 px-2 py-1 rounded-md text-white">
+                    برمجة الويب</div>
+                <div class="course-img w-full h-[200px] ">
+                    <img class="w-full h-full object-cover" src="assest/images/php.jpeg" alt="">
+                </div>
+                <div class="course-info p-2">
+                    <h3 class="text-xl text-center my-3 font-bold text-slate-700 dark:text-gray-200">دبلوم برمجة الويب
+                    </h3>
+                    <p class="text-center dark:text-gray-200 text-slate-700">
+                        تعلّم درسًا جديدًا وطبّق المفاهيم مباشرة من خلال أمثلة عملية.
+
+                    <div class="price flex justify-between text-slate-700 dark:text-gray-200 mt-8 text-xl">
+                        <div>
+                            <span>السعر:</span>
+                            <span class="line-through">250$</span>
+                        </div>
+                        <span>150$</span>
+                    </div>
+                    <a href="course-details.html" class=" block text-center bg-red-500 dark:bg-blue-500 px-5 py-3 rounded-md text-white w-full mt-3 ">تفاصيل
+                        الكورس</a>
+                </div>
+            </div>
+            <div
+                class="course relative bg-gray-100 dark:bg-slate-900 rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+                <div class="absolute top-[5px] right-[5px] bg-red-500 dark:bg-blue-500 px-2 py-1 rounded-md text-white">
+                    برمجة الويب</div>
+                <div class="course-img w-full h-[200px] ">
+                    <img class="w-full h-full object-cover" src="assest/images/php.jpeg" alt="">
+                </div>
+                <div class="course-info p-2">
+                    <h3 class="text-xl text-center my-3 font-bold text-slate-700 dark:text-gray-200">دبلوم برمجة الويب
+                    </h3>
+                    <p class="text-center dark:text-gray-200 text-slate-700">
+                        تعلّم درسًا جديدًا وطبّق المفاهيم مباشرة من خلال أمثلة عملية.
+
+                    <div class="price flex justify-between text-slate-700 dark:text-gray-200 mt-8 text-xl">
+                        <div>
+                            <span>السعر:</span>
+                            <span class="line-through">250$</span>
+                        </div>
+                        <span>150$</span>
+                    </div>
+                     <a href="course-details.html" class=" block text-center bg-red-500 dark:bg-blue-500 px-5 py-3 rounded-md text-white w-full mt-3 ">تفاصيل
+                        الكورس</a>
+                </div>
+            </div>
+            <div
+                class="course relative bg-gray-100 dark:bg-slate-900 rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+                <div class="absolute top-[5px] right-[5px] bg-red-500 dark:bg-blue-500 px-2 py-1 rounded-md text-white">
+                    برمجة الويب</div>
+                <div class="course-img w-full h-[200px] ">
+                    <img class="w-full h-full object-cover" src="assest/images/php.jpeg" alt="">
+                </div>
+                <div class="course-info p-2">
+                    <h3 class="text-xl text-center my-3 font-bold text-slate-700 dark:text-gray-200">دبلوم برمجة الويب
+                    </h3>
+                    <p class="text-center dark:text-gray-200 text-slate-700">
+                        تعلّم درسًا جديدًا وطبّق المفاهيم مباشرة من خلال أمثلة عملية.
+
+                    <div class="price flex justify-between text-slate-700 dark:text-gray-200 mt-8 text-xl">
+                        <div>
+                            <span>السعر:</span>
+                            <span class="line-through">250$</span>
+                        </div>
+                        <span>150$</span>
+                    </div>
+                  <a href="course-details.html" class=" block text-center bg-red-500 dark:bg-blue-500 px-5 py-3 rounded-md text-white w-full mt-3 ">تفاصيل
+                        الكورس</a>
+                </div>
+            </div>
+            <div
+                class="course relative  bg-gray-100 dark:bg-slate-900 rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+                <div class="absolute top-[5px] right-[5px] bg-red-500 dark:bg-blue-500 px-2 py-1 rounded-md text-white">
+                    برمجة الويب</div>
+                <div class="course-img w-full h-[200px] ">
+                    <img class="w-full h-full object-cover" src="assest/images/php.jpeg" alt="">
+                </div>
+                <div class="course-info p-2">
+                    <h3 class="text-xl text-center my-3 font-bold text-slate-700 dark:text-gray-200">دبلوم برمجة الويب
+                    </h3>
+                    <p class="text-center dark:text-gray-200 text-slate-700">
+                        تعلّم درسًا جديدًا وطبّق المفاهيم مباشرة من خلال أمثلة عملية.
+
+                    <div class="price flex justify-between text-slate-700 dark:text-gray-200 mt-8 text-xl">
+                        <div>
+                            <span>السعر:</span>
+                            <span class="line-through">250$</span>
+                        </div>
+                        <span>150$</span>
+                    </div>
+                    <a href="course-details.html" class=" block text-center bg-red-500 dark:bg-blue-500 px-5 py-3 rounded-md text-white w-full mt-3 ">تفاصيل
+                        الكورس</a>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+        <!--start  related courses -->
+
+    </section>
+
+
+    <!-- end  Content -->
+
+
+
+
+    <!-- Start Footer  Section-->
+    <footer class=" relative bg-slate-700  border-t-red-500 dark:border-t-blue-500 border-[5px]"
+        style="background-image: url('./assest/images/footer-bg.png'); background-position: center; background-repeat: no-repeat; background-size: contain;">
+        <div class="absolute z-10 w-full h-full bg-[#02061735] "></div>
+        <div
+            class="z-20 relative max-w-screen-xl mx-auto grid gap-5 md:gap-0  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-3 pt-[30px]">
+            <div class="f-section">
+                <h3 class=" text-3xl  text-gray-200 font-bold mb-5">سكول تك</h3>
+                <p class="text-gray-200 leading-9 w-[90%]">
+                    سكول تك منصة عربية تساعدك على تعلّم البرمجة والتصميم والمهارات الرقمية بأسلوب عملي مبسّط.
+
+            </div>
+            <div class="f2-section">
+                <h3 class=" text-3xl  text-gray-200 font-bold mb-5"> اهم الروابط</h3>
+                <ul class="flex flex-col gap-2 ">
+                    <li><a class="text-gray-200 hover:text-white" href="index.html">الرئيسية</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#contact">اتصل بنا</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">الكورسات</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="single-post.html">المدونة</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#about">عن سكول تك</a></li>
+                </ul>
+            </div>
+            <div class="f3-section">
+                <h3 class=" text-3xl  text-gray-200 font-bold mb-5"> اهم الكورسات</h3>
+                <ul class="flex flex-col gap-2 ">
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">تطوير الويب</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">Python</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">JavaScript</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">الذكاء الاصطناعي</a></li>
+                    <li><a class="text-gray-200 hover:text-white" href="index.html#courses">تصميم الجرافيك</a></li>
+                </ul>
+            </div>
+
+            <div class="f4-section">
+                <h3 class=" text-3xl  text-gray-200 font-bold mb-5"> النشرة البريدية</h3>
+                <form action="index.html" class="flex flex-col gap-3">
+                    <input type="text " placeholder="البريد الالكتروني"
+                        class="caret-gray-200 h-10 border border-gray-100 px-[20px] py-[4px] rounded-[5px] placeholder:text-gray-50">
+                    <button class="btn"> اشترك الان</button>
+                </form>
+
+            </div>
+
+        </div>
+        <div
+            class="relative z-20 max-w-screen-xl mx-auto flex flex-col md:flex-row gap-4 items  justify-between  border-t-[1px] border-gray-600 py-[25px]">
+            <p class="text-gray-200">© 2026 سكول تك. جميع الحقوق محفوظة.</p>
+            <p class="text-gray-200">© 2026 سكول تك. جميع الحقوق محفوظة.</p>
+        </div>
+
+    </footer>
+    <!-- End  Footer   Section-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="assest/js/scripts.js"></script>
+</body>
+
+</html>
