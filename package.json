@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   
     "build": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/input.css -o ./dist/assest/css/style.css",
     "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/assest/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+   "devDependencies": {
     "@tailwindcss/cli": "^4.1.10",
     "tailwindcss": "^4.1.10"
   },
-  "devDependencies": {},
   "description": ""
 }
